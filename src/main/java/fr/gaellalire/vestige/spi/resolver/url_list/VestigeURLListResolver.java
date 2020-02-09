@@ -24,6 +24,8 @@ import fr.gaellalire.vestige.spi.resolver.VestigeResolver;
  */
 public interface VestigeURLListResolver extends VestigeResolver {
 
+    int VERSION = 2;
+
     URLListRequest createURLListRequest(Scope scope, String name);
 
 }
